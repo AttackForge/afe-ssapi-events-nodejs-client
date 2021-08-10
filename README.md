@@ -68,7 +68,7 @@ You can download or clone the NodeJS client from AttackForge public Git reposito
 	git clone https://github.com/AttackForge/afe-ssapi-events-nodejs-client.git
 
 #### Direct download
-* [Zip](https://github.com/AttackForge/afe-ssapi-events-nodejs-client/archive/refs/heads/master.zip)
+* [Zip](https://github.com/AttackForge/afe-ssapi-events-nodejs-client/archive/refs/heads/main.zip)
 
 ### Step 2: Install dependancies
 Using a terminal, navigate to the directory when you downloaded the client in Step 1.
