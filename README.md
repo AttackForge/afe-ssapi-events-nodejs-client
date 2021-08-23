@@ -1,5 +1,5 @@
 # AttackForge Enterprise Self-Service Events API
-## Node JS Client v0.0.1
+## Node JS Client v1.0.0
 
   * [Git](https://github.com/AttackForge/afe-ssapi-events-nodejs-client.git)
   * [Support](https://support.attackforge.com/attackforge-enterprise/modules/self-service-events-api/getting-started)
