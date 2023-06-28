@@ -44,11 +44,11 @@ async function connect() {
     },
   });
 
-  ws.on('error', (error) => {
+  ws.on('error', function(error) {
     console.error(error);
   });
 
-  ws.on('close', () => {
+  ws.on('close', function() {
     clearTimeout(this.heartbeatTimeout);
 
     setTimeout(() => {
