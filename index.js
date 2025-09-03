@@ -1,5 +1,5 @@
 const WebSocket = require('ws');
-const { v4: uuidv4 } = require('uuid');
+const { randomUUID } = require('node:crypto');
 const fs = require('fs').promises;
 
 async function notification(method, params) {
@@ -176,7 +176,7 @@ async function subscribe() {
       events: events,
       from: await loadReplayTimestamp()
     },
-    id: uuidv4().toString()
+    id: randomUUID().toString()
   }
 
   this.pendingRequests[request.id] = {

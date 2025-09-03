@@ -9,7 +9,6 @@
   "author": "Jason De Vincentis (jason@attackforge.com)",
   "license": "MIT",
   "dependencies": {
-    "uuid": "^9.0.0",
     "ws": "^8.13.0"
   }
 }
